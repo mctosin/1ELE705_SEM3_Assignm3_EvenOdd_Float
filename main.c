@@ -36,16 +36,21 @@ int main(int argc, char** argv) {
 	// Veja que mesmo arredondando o número para duas casas decimais 
 	// o número ainda é uma aproximação do valor real. Imprima o número
 	// sem limitar a quantidade de casas decimais e veja por si mesmo.
+	// Para o arredondamento considere que de 0..4 o dígito a esquerda será
+	// mantido e para valores de 5 a 9 será somado 1 ao dígito da esquerda.
 	// Você deve aplicar seu algoritmo para identificar se os elementos
 	// do vetor a[] são pares ou ímpares. Uma string de zeros e uns deve
 	// ser impressa, onde cada número desta corresponde à paridade do 
 	// seu respectivo número no vetor a[]
 	// Ex. para a[] sendo { 1.347, 2.22, 1.559 } a saida deve ser:
 	// "1 0 0"
+	// Para o arredondamento considere que de 0..4 o dígito a esquerda será
+	// mantido e para valores de 5 a 9 será somado 1 ao dígito da esquerda.
 	// onde '1' corresponde a um número ímpar e '0' a um número par
 	// Na string estes números são separados por espaços simples e no
 	// seu final deve ser colocado um '\n' (pula linha). NÃO HÁ
 	// espaço entre o último número e o pula linha.
+
 
 
 	
